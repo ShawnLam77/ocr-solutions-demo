@@ -3,7 +3,7 @@ from trp import Document
 
 # S3 Bucket Data
 s3BucketName = ""
-TabledocumentName = "Image.jpeg"
+TabledocumentName = ""
 
 # Amazon Textract client
 textractmodule = boto3.client('textract')
